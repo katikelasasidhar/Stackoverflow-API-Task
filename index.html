@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Stack Overflow</title>
+  
+</head>
+<body>
+    <div class="box">
+        <div class="innerbox">
+              <div class="inputfrom ">
+            <label for="from" style="font-size: 25px ;color:rgb(238, 96, 13); font-weight: bold;">From</label>
+            <input type="date" id='from' value="" min="2015-05-11" max="2021-10-01">
+        </div>
+        <div class="inputto ">
+            <label for="to" style="font-size: 25px ;color:rgb(231,112,42);font-weight: bold;">To</label>
+            <input type="date" id='to'min="2015-05-12" max="2021-10-02" >
+        </div>
+        <button onclick="Display()" class="btn btn-primary col-2"> Get Results</button>
+        <h3 class='heading'>List Of 30 Profiles Who Answered in Between Days</h3>
+    </div>
+        <div class="outerbox" id="o1">
+            
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
